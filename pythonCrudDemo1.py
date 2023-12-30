@@ -25,8 +25,8 @@ cur = conn.cursor()
 # Skapa en tabel som heter "people"
 # Denna skapa error om tabellen people redan finns :(
 # OBS: Det är också möjligt att anropa conn.execute()
-cur.execute('''CREATE TABLE people
-            (firstName TEXT, surName TEXT)''')
+# cur.execute('''CREATE TABLE people
+#             (firstName TEXT, surName TEXT)''')
 
 
 # Step 1d - Option 2 (better!)
